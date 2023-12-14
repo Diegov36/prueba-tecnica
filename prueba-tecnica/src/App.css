@@ -1,0 +1,84 @@
+#root {
+  width: 100%;  
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #e5e5e5;  
+}
+
+.actionForm{
+  background-color: aliceblue;
+  border: #000 1px solid;
+  border-radius: 25px;
+  width: 400px;
+  height: 600px;
+  position: fixed;
+  inset: 0;  
+  margin:auto;
+  display: none;
+  overflow: auto;
+  z-index: 1;
+}
+
+
+
+.col1{
+  position: static;
+  
+}
+
+input{
+  width: 70%;  
+}
+
+.col2{  
+  margin-left: 10%;
+}
+
+.container{
+  display: flex;   
+  flex-wrap: wrap;
+  position: relative; 
+  width: 100%;
+  justify-content: center;
+}
+
+.switchContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  gap: 10px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.switchItem{  
+  display: flex;
+  width: 100%;  
+  max-width: 100%;  
+  justify-content: space-between;
+}
+
+.actionContainer{
+  margin-top: 2%;
+  display: flex;
+  width: 100%;
+  
+  justify-content: space-evenly;
+  
+}
+
+.calContainer{
+  display: flex;     
+  justify-content: center;
+  max-width: 100%;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "id": 1,
+      "name": "Prueba inicial ",
+      "startDate": "Fri Dec 01 2023",
+      "endDate": "Fri Dec 08 2023",
+      "responsible": true,
+      "mark": true,
+      "legal": true,
+      "objetive": true,
+      "type": "Acción social"
+    },
+    {
+      "name": "Prueba POST ",
+      "startDate": "Fri Dec 01 2023",
+      "endDate": "Sat Dec 30 2023",
+      "responsible": true,
+      "mark": true,
+      "legal": false,
+      "objetive": false,
+      "type": "Acción social",
+      "id": 2
+    },
+    {
+      "name": "Prueba valores por defecto",
+      "startDate": "Thu Dec 14 2023",
+      "endDate": "Thu Dec 14 2023",
+      "responsible": false,
+      "mark": false,
+      "legal": false,
+      "objetive": false,
+      "type": "Acción social",
+      "id": 3
+    },
+    {
+      "name": "",
+      "startDate": "Thu Dec 14 2023",
+      "endDate": "Thu Dec 14 2023",
+      "responsible": false,
+      "mark": false,
+      "legal": false,
+      "objetive": false,
+      "type": "Acción social",
+      "id": 4
+    }
+  ]
+}
